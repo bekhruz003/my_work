@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'blogs',
     'works',
+    'main',
     
 ]
 
@@ -127,7 +128,7 @@ STATIC_URL = 'static/'
 
 STATIC_ROOT = BASE_DIR / 'static'
 
-STATICFILES_DIRS = BASE_DIR / 'assets'
+STATICFILES_DIRS = BASE_DIR / 'assets',
 
 MEDIA_URL = 'media/'
 
